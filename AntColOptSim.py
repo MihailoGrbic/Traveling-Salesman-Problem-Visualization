@@ -24,10 +24,10 @@ class AntColOptSim(SimulationBox):
 
         self.buttons["SimSpeedSlider"].moveCenter([1500, 300])
         self.buttons.update({
-            "AntCountSlider": Slider(self.ant_count_obj, (INITIAL_ANTS, 20), (1500, 400), "Ant Count", int),
+            "AntCountSlider": Slider(self.ant_count_obj, (INITIAL_ANTS, 20), (1500, 400), "Broj mrava", int),
             "BetaSlider": Slider(self.beta_obj, (0, 1), (1500, 500), "Beta", float),
             "AlphaSlider": Slider(self.alpha_obj, (0, 1), (1500, 600), "Alfa", float),
-            "ExploreSlider": Slider(self.exp_obj, (0, 100), (1500, 700), "Explore%", int),
+            "ExploreSlider": Slider(self.exp_obj, (0, 100), (1500, 700), "Istraži%", int),
             "RSlider": Slider(self.r_obj, (0, 1), (1500, 800), "R", float)
         })
 

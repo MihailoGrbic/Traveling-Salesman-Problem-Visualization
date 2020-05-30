@@ -52,7 +52,7 @@ if __name__ == "__main__":
                 for obj in screens[state]['ObjectDict'].values():
                     obj.handleMouseUp(mouse_pos)
 
-        pos[0] += 1
-        pos[1] += 1
-        circle_rect = pygame.draw.circle(window, colors['Red'], pos, 10)
-        pygame.display.update(circle_rect)
+        # pos[0] += 1
+        # pos[1] += 1
+        # circle_rect = pygame.draw.circle(window, colors['Red'], pos, 10)
+        # pygame.display.update(circle_rect)
